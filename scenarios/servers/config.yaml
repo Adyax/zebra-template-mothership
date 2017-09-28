@@ -1,0 +1,6 @@
+---
+servers:
+  # Company or project specific.
+  demo.adyax:
+    host: demo-proto-zebra.adyax.net
+    user: zebra

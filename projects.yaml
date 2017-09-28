@@ -1,0 +1,38 @@
+---
+projects:
+  zebra-template-taurus:
+    configRepo: git@github.com:Adyax/zebra-template-taurus.git
+    params:
+      override: true
+      webhooksEnvironments:
+        - dev
+      tests:
+        - seed
+
+  zebra-template-simple:
+    configRepo: git@github.com:Adyax/zebra-template-simple.git
+    params:
+      override: true
+      webhooksEnvironments:
+        - dev
+      tests:
+        - seed
+
+  zebra-template-one-to-one:
+    configRepo: git@github.com:Adyax/zebra-template-one-to-one.git
+    params:
+      override: true
+      webhooksEnvironments:
+        - dev
+      tests:
+        - seed
+
+  zebra-template-many-to-one:
+    configRepo: git@github.com:Adyax/zebra-template-many-to-one.git
+    params:
+      override: true
+      webhooksEnvironments:
+        - dev
+      tests:
+        - seed
+

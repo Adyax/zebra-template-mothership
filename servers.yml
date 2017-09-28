@@ -1,5 +1,0 @@
-servers:
-  dev:
-    jenkinsUrl: http://46.101.243.102:8080/
-    tags:
-      - dev
